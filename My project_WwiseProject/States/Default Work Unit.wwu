@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D6B77029-828F-45F4-8D07-E46B88ABE359}" SchemaVersion="103">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{D6B77029-828F-45F4-8D07-E46B88ABE359}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="CameraPosition" ID="{3FC49F9E-1A3A-483F-87C8-50611549CEF0}">
+					<ChildrenList>
+						<State Name="None" ID="{D5E33235-3719-4312-98CD-4A5C3BDED653}"/>
+						<State Name="New_State" ID="{CDA41286-F79B-4EFE-80E6-157BC16B3BEE}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="Load" ID="{6F3BE542-DDA1-4115-A72C-9FFD4CD1A5F8}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="0.3"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{44EC1396-6EC6-456F-B0C6-781ACC950991}"/>
+						<State Name="OnLoad" ID="{C35685D2-BD52-49EF-805C-13F8BD72DB8C}"/>
+						<State Name="OffLoad" ID="{BE43CD77-7995-47C2-9094-D63B1A86065D}"/>
+					</ChildrenList>
+					<TransitionList>
+						<Transition>
+							<StartState Name="OffLoad" ID="{BE43CD77-7995-47C2-9094-D63B1A86065D}"/>
+							<EndState Name="OnLoad" ID="{C35685D2-BD52-49EF-805C-13F8BD72DB8C}"/>
+							<Time>0.3</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="OnLoad" ID="{C35685D2-BD52-49EF-805C-13F8BD72DB8C}"/>
+							<EndState Name="OffLoad" ID="{BE43CD77-7995-47C2-9094-D63B1A86065D}"/>
+							<Time>0.3</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+					</TransitionList>
+				</StateGroup>
+				<StateGroup Name="Mall" ID="{2612F304-F485-499D-8A8D-C67FB3368322}">
+					<ChildrenList>
+						<State Name="None" ID="{16D45B8F-FE11-440F-8434-D63E6ECEEA1B}"/>
+						<State Name="Inside" ID="{C3F970A4-C7DB-437B-8D83-CDB412AB9949}"/>
+						<State Name="Outside" ID="{C534B2B0-3801-46EC-8465-11D1DFEFE54B}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="IsBraking" ID="{791DC2CB-FB40-4EC2-A3BE-0404B731F1C7}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="0.5"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{7C5376F0-015F-4258-8E12-A217A1194B33}"/>
+						<State Name="True" ID="{007AC966-BC77-4CE6-8074-4FD165519B08}"/>
+						<State Name="False" ID="{444B1D51-94B7-408E-A614-48F2B8490013}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="Surface" ID="{06BBC04C-6CAE-4967-B322-4BFBE3CF2CD5}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="0.2"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{817B3BC6-EAE2-4D26-B40B-CB8943334BE9}"/>
+						<State Name="Grass" ID="{0AE2EE2F-C33F-4DC7-A9AB-7D946E4B7963}"/>
+						<State Name="Asphalt" ID="{BE1AC21D-C4CE-4CA8-9378-7BCA96A90764}"/>
+						<State Name="Gravel" ID="{E0ED39B8-B453-48FB-9AF5-9DFE034CBB24}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="IsAirborne" ID="{ABB5BDA4-FC3E-4B86-BD4A-DAE1E1FB918A}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="0.2"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{343B749F-5E6A-48C4-A84C-B6528ADDDC7A}"/>
+						<State Name="True" ID="{B0329668-A61D-4BCF-8240-EE8D73DAAD18}"/>
+						<State Name="False" ID="{3DD19D15-633A-428A-B3A1-0A01D07FAE68}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

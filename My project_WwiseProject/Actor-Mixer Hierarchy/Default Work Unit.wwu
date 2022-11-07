@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{59439644-CE71-4263-B785-E84700E83B02}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{59439644-CE71-4263-B785-E84700E83B02}" PersistMode="Standalone">
+			<ChildrenList>
+				<ActorMixer Name="Ambience" ID="{1B4C793B-2BAB-4D95-A982-A5BBB05DD2FB}" ShortID="888886772">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4A6C459B-1861-46E4-A9D4-5A32017F34DE}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{80768B07-9528-46B7-BE9A-5C5E62A6A88C}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="amb_city_1" ID="{70E55097-8F88-4EE4-B299-791138B57D1F}" ShortID="869237256">
+							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>11</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>16</Value>
+									</ValueList>
+								</Property>
+								<Property Name="MakeUpGain" Type="Real64">
+									<ValueList>
+										<Value>-16</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OverrideEffect" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-2</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4A6C459B-1861-46E4-A9D4-5A32017F34DE}"/>
+								</Reference>
+								<Reference Name="Effect0">
+									<Custom>
+										<Effect Name="Wwise Parametric EQ (Custom)" ID="{AA56CBC9-4EB0-4F9A-8E57-B108C65DAE7B}" ShortID="708598280" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+											<PropertyList>
+												<Property Name="FrequencyBand2" Type="Real32" Value="978"/>
+												<Property Name="GainBand2" Type="Real32" Value="-5"/>
+											</PropertyList>
+										</Effect>
+									</Custom>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{80768B07-9528-46B7-BE9A-5C5E62A6A88C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="amb_city_1" ID="{DF3631F4-F7DF-4AE1-B040-4AA0B36C0904}">
+									<Language>SFX</Language>
+									<AudioFile>Ambience\amb_city_1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="672988006"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="amb_city_1" ID="{DF3631F4-F7DF-4AE1-B040-4AA0B36C0904}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists/>
+				</ActorMixer>
+				<RandomSequenceContainer Name="Road_Bumps" ID="{C92CA968-7993-40E0-975C-A59392D6B71C}" ShortID="966824287">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="MakeUpGain" Type="Real64">
+							<ValueList>
+								<Value>6</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<Custom>
+								<Attenuation Name="Attenuation (Custom)" ID="{D035FB47-C1EC-4F57-905A-BC949D53C672}" ShortID="823213948">
+									<PropertyList>
+										<Property Name="RadiusMax" Type="Real64" Value="30"/>
+									</PropertyList>
+									<CurveUsageInfoList>
+										<VolumeDryUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+												<Curve Name="VolumeDry" ID="{6596EE51-DF4C-44F5-BB96-BFDDFCD44335}">
+													<PropertyList>
+														<Property Name="Flags" Type="int32" Value="3"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>0</YPos>
+															<Flags>5</Flags>
+														</Point>
+														<Point>
+															<XPos>5.03251</XPos>
+															<YPos>-0</YPos>
+															<Flags>0</Flags>
+														</Point>
+														<Point>
+															<XPos>30</XPos>
+															<YPos>-200</YPos>
+															<Flags>37</Flags>
+														</Point>
+													</PointList>
+												</Curve>
+											</CurveUsageInfo>
+										</VolumeDryUsage>
+										<VolumeWetGameUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetGameUsage>
+										<VolumeWetUserUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetUserUsage>
+										<LowPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</LowPassFilterUsage>
+										<HighPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</HighPassFilterUsage>
+										<SpreadUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</SpreadUsage>
+										<FocusUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</FocusUsage>
+									</CurveUsageInfoList>
+								</Attenuation>
+							</Custom>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4A6C459B-1861-46E4-A9D4-5A32017F34DE}"/>
+						</Reference>
+						<Reference Name="Effect0">
+							<Custom>
+								<Effect Name="Wwise Parametric EQ (Custom)" ID="{4E1E6752-A2D8-429B-882A-758950A82B44}" ShortID="45511833" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+									<PropertyList>
+										<Property Name="FrequencyBand2" Type="Real32" Value="304"/>
+										<Property Name="GainBand2" Type="Real32" Value="3"/>
+									</PropertyList>
+								</Effect>
+							</Custom>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="010 Collision" ID="{EFD36375-49EB-4CED-A10B-603F66B00D60}" WorkUnitID="{80768B07-9528-46B7-BE9A-5C5E62A6A88C}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="road_bumps_1" ID="{F418934F-7294-481B-9E02-0010B4B6CE10}" ShortID="635050456">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4A6C459B-1861-46E4-A9D4-5A32017F34DE}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{80768B07-9528-46B7-BE9A-5C5E62A6A88C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="road_bumps_1" ID="{8DF9B82A-4004-4407-8A21-BD64D3B6B646}">
+									<Language>SFX</Language>
+									<AudioFile>Ambience\RoadBumps\road_bumps_1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="979156606"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="road_bumps_1" ID="{8DF9B82A-4004-4407-8A21-BD64D3B6B646}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="road_bumps_2" ID="{21CA8CB4-C30F-486E-A6D9-B4EA5BE2138A}" ShortID="905512500">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4A6C459B-1861-46E4-A9D4-5A32017F34DE}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{80768B07-9528-46B7-BE9A-5C5E62A6A88C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="road_bumps_2" ID="{47C34F82-052C-4C79-8F9D-C5C886BDF0CB}">
+									<Language>SFX</Language>
+									<AudioFile>Ambience\RoadBumps\road_bumps_2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="450451004"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="road_bumps_2" ID="{47C34F82-052C-4C79-8F9D-C5C886BDF0CB}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="road_bumps_3" ID="{9C987B94-5F05-4837-B73C-D7CC1977C113}" ShortID="1037892038">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4A6C459B-1861-46E4-A9D4-5A32017F34DE}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{80768B07-9528-46B7-BE9A-5C5E62A6A88C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="road_bumps_3" ID="{A5982E0B-C1A8-48E5-9DBA-AEF69C2D0515}">
+									<Language>SFX</Language>
+									<AudioFile>Ambience\RoadBumps\road_bumps_3.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="166425492"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="road_bumps_3" ID="{A5982E0B-C1A8-48E5-9DBA-AEF69C2D0515}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="road_bumps_4" ID="{CDB971B8-69FA-4F54-B274-376CD24811AA}" ShortID="767339399">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4A6C459B-1861-46E4-A9D4-5A32017F34DE}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{80768B07-9528-46B7-BE9A-5C5E62A6A88C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="road_bumps_4" ID="{2586004D-31DD-4547-AAD8-2A344B21407B}">
+									<Language>SFX</Language>
+									<AudioFile>Ambience\RoadBumps\road_bumps_4.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="915750086"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="road_bumps_4" ID="{2586004D-31DD-4547-AAD8-2A344B21407B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="road_bumps_5" ID="{1B1804CB-D16D-40B8-9FDB-85389A39AF8A}" ShortID="945109840">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4A6C459B-1861-46E4-A9D4-5A32017F34DE}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{80768B07-9528-46B7-BE9A-5C5E62A6A88C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="road_bumps_5" ID="{0270B034-9D67-4C35-9783-F632D1594C85}">
+									<Language>SFX</Language>
+									<AudioFile>Ambience\RoadBumps\road_bumps_5.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="672090062"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="road_bumps_5" ID="{0270B034-9D67-4C35-9783-F632D1594C85}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists/>
+				</RandomSequenceContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

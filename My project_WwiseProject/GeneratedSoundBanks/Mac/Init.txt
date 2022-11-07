@@ -1,0 +1,98 @@
+Switch Group	ID	Name			Wwise Object Path	Notes
+	1333843330	AccelIntencity			\Default Work Unit\AccelIntencity	
+	2064179654	BrakeType			\Default Work Unit\BrakeType	
+	3838421974	CrashType			\Default Work Unit\CrashType	
+
+Switch	ID	Name	Switch Group			Notes
+	390941685	VeryHigh	AccelIntencity			
+	545371365	Low	AccelIntencity			
+	981339021	Med	AccelIntencity			
+	3550808449	High	AccelIntencity			
+	674228435	Long	BrakeType			
+	1666346102	Quick	BrakeType			
+	2849147824	Medium	BrakeType			
+	647611021	Big	CrashType			
+	1846755610	Small	CrashType			
+
+State Group	ID	Name			Wwise Object Path	Notes
+	523229933	Load			\Default Work Unit\Load	
+	884718081	CameraPosition			\Default Work Unit\CameraPosition	
+	1166993875	IsAirborne			\Default Work Unit\IsAirborne	
+	1834394558	Surface			\Default Work Unit\Surface	
+	2959914603	IsBraking			\Default Work Unit\IsBraking	
+	3111576183	Mall			\Default Work Unit\Mall	
+
+State	ID	Name	State Group			Notes
+	748895195	None	Load			
+	2466053606	OnLoad	Load			
+	2987420976	OffLoad	Load			
+	748895195	None	CameraPosition			
+	2021425847	New_State	CameraPosition			
+	748895195	None	IsAirborne			
+	2452206122	False	IsAirborne			
+	3053630529	True	IsAirborne			
+	748895195	None	Surface			
+	2185786256	Gravel	Surface			
+	4169408098	Asphalt	Surface			
+	4248645337	Grass	Surface			
+	748895195	None	IsBraking			
+	2452206122	False	IsBraking			
+	3053630529	True	IsBraking			
+	438105790	Outside	Mall			
+	748895195	None	Mall			
+	3553349781	Inside	Mall			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	894271040	Outside	Mall	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\HDR		
+	970023196	Inside	Mall	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\HDR		
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1193280819	RTPC_Load			\Default Work Unit\RTPC_Load	
+	1381474336	RTPC_Speed			\Default Work Unit\RTPC_Speed	
+	2654500707	RTPC_AccelSC			\Default Work Unit\SC\RTPC_AccelSC	
+	3774151474	RTPC_RPM			\Default Work Unit\RTPC_RPM	
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	247479977	020 Engine			\Default Work Unit\Master Audio Bus\HDR\020 Engine	
+	268529915	Engine			\Default Work Unit\Master Audio Bus\HDR\020 Engine\Car\Engine	
+	865541777	OffLoad_Engine			\Default Work Unit\Master Audio Bus\HDR\020 Engine\Car\Engine\OffLoad_Engine	
+	931844945	HDR			\Default Work Unit\Master Audio Bus\HDR	
+	983016381	Car			\Default Work Unit\Master Audio Bus\HDR\020 Engine\Car	
+	1030452868	018 Accel			\Default Work Unit\Master Audio Bus\HDR\018 Accel	
+	1377834261	Exhaust			\Default Work Unit\Master Audio Bus\HDR\020 Engine\Car\Exhaust	
+	1451316327	015 ShiftGears			\Default Work Unit\Master Audio Bus\HDR\015 ShiftGears	
+	1642235233	Pops			\Default Work Unit\Master Audio Bus\HDR\020 Engine\Car\Exhaust\Pops	
+	1778882555	Accel			\Default Work Unit\Master Audio Bus\HDR\018 Accel\Accel	
+	1948932202	030 Ambience			\Default Work Unit\Master Audio Bus\HDR\030 Ambience	
+	2003414403	019 Brakes			\Default Work Unit\Master Audio Bus\HDR\019 Brakes	
+	2466053606	OnLoad			\Default Work Unit\Master Audio Bus\HDR\020 Engine\Car\Exhaust\OnLoad	
+	2729209948	GearShift			\Default Work Unit\Master Audio Bus\HDR\015 ShiftGears\GearShift	
+	2987420976	OffLoad			\Default Work Unit\Master Audio Bus\HDR\020 Engine\Car\Exhaust\OffLoad	
+	3182575763	OnLoad_Engine			\Default Work Unit\Master Audio Bus\HDR\020 Engine\Car\Engine\OnLoad_Engine	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	4072737380	010 Collision			\Default Work Unit\Master Audio Bus\HDR\010 Collision	
+	4193674518	025 TiresSurface			\Default Work Unit\Master Audio Bus\HDR\025 TiresSurface	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	3375730903	MallReverb			\Default Work Unit\Master Audio Bus\MallReverb	
+
+Effect plug-ins	ID	Name	Type				Notes
+	11968633	Wwise Guitar Distortion (Custom)	Wwise Guitar Distortion			
+	20200363	Wwise Meter (Custom)	Wwise Meter			
+	133692544	Wwise Compressor (Custom)	Wwise Compressor			
+	383477212	Wwise Parametric EQ (Custom)	Wwise Parametric EQ			
+	475749592	Wwise Parametric EQ (Custom)	Wwise Parametric EQ			
+	700524323	Wwise Peak Limiter (Custom)	Wwise Peak Limiter			
+	776106695	Wwise Compressor (Custom)	Wwise Compressor			
+	813186259	Wwise Compressor (Custom)	Wwise Compressor			
+	841627453	Wwise Parametric EQ (Custom)	Wwise Parametric EQ			
+	912961507	Wwise RoomVerb (Custom)	Wwise RoomVerb			
+	992089710	Wwise Meter (Custom)	Wwise Meter			
+	1041867468	Wwise Parametric EQ (Custom)	Wwise Parametric EQ			
+	1066660343	Wwise Compressor (Custom)	Wwise Compressor			
+	3900114836	Metal_Hangar	Wwise RoomVerb			
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+

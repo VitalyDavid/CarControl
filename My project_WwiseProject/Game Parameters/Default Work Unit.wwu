@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{1E649E50-FE5B-4D22-8882-EF5FDC2A96F7}" SchemaVersion="103">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{1E649E50-FE5B-4D22-8882-EF5FDC2A96F7}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="RTPC_RPM" ID="{D6802D28-FA32-4D26-A815-30935DAFC8B4}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="1000"/>
+						<Property Name="Max" Type="Real64" Value="7000"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+						<Property Name="SlewRateDown" Type="Real64" Value="2000"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="2000"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_Speed" ID="{8CEA0F11-3EA4-4D77-869C-A6A3ED1FDB8B}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="220"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_Gear" ID="{5CEE5374-867F-4859-AB14-B19C0F734D6C}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+						<Property Name="SlewRateDown" Type="Real64" Value="0.5"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="0.5"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_DamageValue" ID="{7DA98F09-4FCE-480D-8276-689C3684D70B}"/>
+				<GameParameter Name="RTPC_DriftAngle" ID="{71686FB9-84F2-4B17-B0DF-3609F94241F2}"/>
+				<GameParameter Name="RTPC_NOSIntencity" ID="{C76685B2-D56B-47ED-BE60-24618625DD8E}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+						<Property Name="SlewRateDown" Type="Real64" Value="0.2"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="0.6"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_Load" ID="{E9A66546-DDB2-4843-A509-FD88C0B4B478}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+						<Property Name="SlewRateDown" Type="Real64" Value="1"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_ExhaustAzimuth" ID="{2581A38F-DD6B-4129-8ABB-0F75ACBB5AF0}">
+					<PropertyList>
+						<Property Name="BindToBuiltInParam" Type="int16" Value="2"/>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="180"/>
+						<Property Name="Min" Type="Real64" Value="-180"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_CameraDistance" ID="{3009BF0F-6E4E-41E0-B52D-C1E885445455}">
+					<PropertyList>
+						<Property Name="BindToBuiltInParam" Type="int16" Value="1"/>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+				<Folder Name="SC" ID="{D4780529-A1EC-4568-AA23-CAECA086EA6F}" ShortID="586234852">
+					<ChildrenList>
+						<GameParameter Name="RTPC_GearShiftingSC" ID="{993FE04A-0F04-444D-88C8-BDC8D8AF3449}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="-48"/>
+								<Property Name="Max" Type="Real64" Value="0"/>
+								<Property Name="Min" Type="Real64" Value="-48"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="RTPC_AccelSC" ID="{CF7E6090-2451-4C70-ABF5-FFAD626DC357}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="-52"/>
+								<Property Name="Max" Type="Real64" Value="0"/>
+								<Property Name="Min" Type="Real64" Value="-52"/>
+								<Property Name="RTPCRamping" Type="int16" Value="1"/>
+								<Property Name="SlewRateDown" Type="Real64" Value="100"/>
+								<Property Name="SlewRateUp" Type="Real64" Value="100"/>
+							</PropertyList>
+						</GameParameter>
+					</ChildrenList>
+				</Folder>
+				<GameParameter Name="RTPC_DriftAmount" ID="{AECB1C84-4D8B-435E-8D45-3389E87DE2FF}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+						<Property Name="Min" Type="Real64" Value="-1"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+						<Property Name="SlewRateDown" Type="Real64" Value="100"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="1000"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_BrakeAmount" ID="{2D5A9EDF-70AA-4E62-967B-9692507D773D}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_HandbrakeAmount" ID="{CA298A70-C461-408A-B7E4-4B7857C9BD9B}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_IsAirborne" ID="{1F09C1D4-DA6C-4DDE-BF27-33080963304C}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_Direction" ID="{8767C754-FE07-4F31-B07B-45F8558CEF8F}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="1"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+						<Property Name="Min" Type="Real64" Value="-1"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{038BC4E0-D645-4FFF-8E09-B4F4E039E544}" SchemaVersion="103">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{038BC4E0-D645-4FFF-8E09-B4F4E039E544}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="SC check" ID="{DE2F0F09-B666-4650-8F6B-7E0E802ED627}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="GearShift" ID="{DEF5197D-A175-4E73-89B2-63F3859B2E72}" WorkUnitID="{27B419E1-FBDC-4926-B05D-34B077463D44}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Pops" ID="{8EAB02CC-B65B-447F-A5A3-4216BC451FEA}" WorkUnitID="{27B419E1-FBDC-4926-B05D-34B077463D44}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Exhaust" ID="{873D8EEF-FED5-4C71-9114-8CCE8E687CD5}" WorkUnitID="{27B419E1-FBDC-4926-B05D-34B077463D44}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="ExhaustAccel" ID="{5F07BC26-D22E-42F8-9969-5538439C354A}" WorkUnitID="{27B419E1-FBDC-4926-B05D-34B077463D44}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="NOS_SciFi" ID="{2784D719-A9E2-47FB-9C57-F43BF5E14B92}" WorkUnitID="{27B419E1-FBDC-4926-B05D-34B077463D44}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_HandbrakeAmount" ID="{CA298A70-C461-408A-B7E4-4B7857C9BD9B}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ExhaustAzimuth" ID="{2581A38F-DD6B-4129-8ABB-0F75ACBB5AF0}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_CameraDistance" ID="{3009BF0F-6E4E-41E0-B52D-C1E885445455}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_DriftAmount" ID="{AECB1C84-4D8B-435E-8D45-3389E87DE2FF}"/>
+							<Value>-1</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_GearShiftingSC" ID="{993FE04A-0F04-444D-88C8-BDC8D8AF3449}"/>
+							<Value>-48</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_NOSIntencity" ID="{C76685B2-D56B-47ED-BE60-24618625DD8E}"/>
+							<Value>0.0190582959641256</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_DamageValue" ID="{7DA98F09-4FCE-480D-8276-689C3684D70B}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_Load" ID="{E9A66546-DDB2-4843-A509-FD88C0B4B478}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_Gear" ID="{5CEE5374-867F-4859-AB14-B19C0F734D6C}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_DriftAngle" ID="{71686FB9-84F2-4B17-B0DF-3609F94241F2}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_AccelSC" ID="{CF7E6090-2451-4C70-ABF5-FFAD626DC357}"/>
+							<Value>1.37870674296649E-311</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_RPM" ID="{D6802D28-FA32-4D26-A815-30935DAFC8B4}"/>
+							<Value>5084</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_Speed" ID="{8CEA0F11-3EA4-4D77-869C-A6A3ED1FDB8B}"/>
+							<Value>25.4477611940299</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_IsAirborne" ID="{1F09C1D4-DA6C-4DDE-BF27-33080963304C}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_BrakeAmount" ID="{2D5A9EDF-70AA-4E62-967B-9692507D773D}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_Direction" ID="{8767C754-FE07-4F31-B07B-45F8558CEF8F}"/>
+							<Value>1</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="None" ID="{44EC1396-6EC6-456F-B0C6-781ACC950991}"/>
+						<CurrentStateRef Name="None" ID="{D5E33235-3719-4312-98CD-4A5C3BDED653}"/>
+						<CurrentStateRef Name="Gravel" ID="{E0ED39B8-B453-48FB-9AF5-9DFE034CBB24}"/>
+						<CurrentStateRef Name="Outside" ID="{C534B2B0-3801-46EC-8465-11D1DFEFE54B}"/>
+						<CurrentStateRef Name="False" ID="{3DD19D15-633A-428A-B3A1-0A01D07FAE68}"/>
+						<CurrentStateRef Name="None" ID="{7C5376F0-015F-4258-8E12-A217A1194B33}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Asphalt" ID="{4BD7F66F-8B7D-47B4-8689-0ABEF6AEC0EC}"/>
+						<CurrentSwitchRef Name="Off" ID="{7047C867-2ABD-4928-A378-39395719E822}"/>
+						<CurrentSwitchRef Name="Engine" ID="{47503272-19C2-49A0-B3B1-D3F2E29E953E}"/>
+						<CurrentSwitchRef Name="Gear_1" ID="{6B850B8E-5E82-4103-990B-2D8150280E01}"/>
+						<CurrentSwitchRef Name="Big" ID="{18E38818-663B-4122-B1D3-E74066582BC7}"/>
+						<CurrentSwitchRef Name="Idle" ID="{256ED4DE-8857-45F6-BB95-AFC88258DE00}"/>
+						<CurrentSwitchRef Name="ABS" ID="{F72B1DF6-6A07-4571-B208-FA2CE66DF725}"/>
+						<CurrentSwitchRef Name="Both" ID="{5A2D6B83-9239-4DD5-AF07-C3490BF8CA5E}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

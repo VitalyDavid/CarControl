@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{679B44A3-7051-4954-8D19-A8D9691D3A51}" SchemaVersion="103">
+	<Switches>
+		<WorkUnit Name="Default Work Unit" ID="{679B44A3-7051-4954-8D19-A8D9691D3A51}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="CurrentGear" ID="{9796ECFC-0359-49F2-9A8A-622FBE8FB83E}">
+					<ChildrenList>
+						<Switch Name="Gear_R" ID="{06DB0DCB-7437-4484-8894-2EDF140016E4}"/>
+						<Switch Name="Gear_N" ID="{275F92E9-6F0D-4066-884E-C32866F03599}"/>
+						<Switch Name="Gear_1" ID="{6B850B8E-5E82-4103-990B-2D8150280E01}"/>
+						<Switch Name="Gear_2" ID="{A0032C36-742F-43C3-A23B-2235407B3999}"/>
+						<Switch Name="Gear_3" ID="{DDFA2012-E0C0-44DD-8CA8-1C2B1D421AEF}"/>
+						<Switch Name="Gear_4" ID="{C5185B74-6FA4-4054-BC85-63D7266BA589}"/>
+						<Switch Name="Gear_5" ID="{51181DD0-0FE2-4318-A7B5-CC01EFFA2D99}"/>
+						<Switch Name="Gear_6" ID="{A57239A7-60DA-4FF7-868C-24784D1AAD5A}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="Indicator" ID="{D462A9B8-7FE6-4C17-8E87-43734B26E37A}">
+					<ChildrenList>
+						<Switch Name="L" ID="{432767EA-538E-4303-A57D-AB7F33BAE262}"/>
+						<Switch Name="R" ID="{F92F2B0C-746C-4C70-BCEE-6DE45969ABDE}"/>
+						<Switch Name="Both" ID="{5A2D6B83-9239-4DD5-AF07-C3490BF8CA5E}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="Drifting" ID="{7D482D1A-0736-4854-B5A8-D045D779EE63}"/>
+				<SwitchGroup Name="Assistance" ID="{F065F217-EE65-4B9F-9BE7-62DB2D692DC1}">
+					<ChildrenList>
+						<Switch Name="ABS" ID="{F72B1DF6-6A07-4571-B208-FA2CE66DF725}"/>
+						<Switch Name="TCS" ID="{05850378-098C-4944-A69B-AC01D07BE47D}"/>
+						<Switch Name="ESP" ID="{88C94E6B-02D9-43D6-B253-5AB28EE9A695}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="Turbo" ID="{1631E50B-75E4-46B6-8D01-BFD0CCE04FCF}">
+					<ChildrenList>
+						<Switch Name="On" ID="{139A0FFC-4AB6-47E4-8521-4B90B5290880}"/>
+						<Switch Name="Off" ID="{7047C867-2ABD-4928-A378-39395719E822}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="AccelIntencity" ID="{007A180A-513A-4C94-A3DA-C572C1C7B57F}">
+					<PropertyList>
+						<Property Name="UseGameParameter" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="Low" ID="{4C560EC0-8CD6-47AE-9CAA-628CE5EE35FE}"/>
+						<Switch Name="Med" ID="{336A9AAC-4045-4432-A2A8-FC42B4C2D51A}"/>
+						<Switch Name="High" ID="{7A6BFF26-3F5B-4F94-A1FD-4E4B96448708}"/>
+						<Switch Name="VeryHigh" ID="{4210C292-1A11-478E-A8C6-82295F2B8160}"/>
+					</ChildrenList>
+					<SwitchOnRTPC>
+						<GameParameterRef Name="RTPC_RPM" ID="{D6802D28-FA32-4D26-A815-30935DAFC8B4}"/>
+						<Curve Name="" ID="{61778022-C1EC-498A-A2C8-1D5F5C8EBB50}">
+							<PropertyList>
+								<Property Name="Flags" Type="int32" Value="65537"/>
+							</PropertyList>
+							<PointList>
+								<Point>
+									<XPos>0</XPos>
+									<YPos>1</YPos>
+									<Flags>5</Flags>
+								</Point>
+								<Point>
+									<XPos>1000</XPos>
+									<YPos>2</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>1500</XPos>
+									<YPos>3</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>2000</XPos>
+									<YPos>4</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>7000</XPos>
+									<YPos>4</YPos>
+									<Flags>37</Flags>
+								</Point>
+							</PointList>
+						</Curve>
+					</SwitchOnRTPC>
+				</SwitchGroup>
+				<SwitchGroup Name="EnginePos" ID="{BE697E8D-4126-48F6-947D-910DA9E593C6}">
+					<ChildrenList>
+						<Switch Name="Engine" ID="{47503272-19C2-49A0-B3B1-D3F2E29E953E}"/>
+						<Switch Name="Exhaust" ID="{EBDD6061-9B57-4CA4-9710-B06251D0E7D0}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="Surface" ID="{C2614EF1-490F-437F-9B22-16C8CD6C643E}">
+					<ChildrenList>
+						<Switch Name="Gravel" ID="{3B8A0209-7413-4A91-9915-BAF616F5B2ED}"/>
+						<Switch Name="Grass" ID="{BECE8D65-93CF-4755-AA97-36769BC0610F}"/>
+						<Switch Name="Asphalt" ID="{4BD7F66F-8B7D-47B4-8689-0ABEF6AEC0EC}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="BrakeType" ID="{2608A4AF-CB5C-4BE4-AFFF-4094CC6E15DC}">
+					<PropertyList>
+						<Property Name="UseGameParameter" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="Quick" ID="{DCB36B0B-01D6-4337-9E6B-734F3F5B0C2F}"/>
+						<Switch Name="Medium" ID="{DBD2D707-B1E4-4C0F-930E-0A48F07C81F6}"/>
+						<Switch Name="Long" ID="{2DED869D-A32B-49DB-9677-3D2FC1D3B5BE}"/>
+					</ChildrenList>
+					<SwitchOnRTPC>
+						<GameParameterRef Name="RTPC_DriftAmount" ID="{AECB1C84-4D8B-435E-8D45-3389E87DE2FF}"/>
+						<Curve Name="" ID="{41498222-1D19-4B38-A5D3-ED3BB0690BDC}">
+							<PropertyList>
+								<Property Name="Flags" Type="int32" Value="65537"/>
+							</PropertyList>
+							<PointList>
+								<Point>
+									<XPos>-1</XPos>
+									<YPos>3</YPos>
+									<Flags>5</Flags>
+								</Point>
+								<Point>
+									<XPos>-0.5</XPos>
+									<YPos>2</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>-0.35</XPos>
+									<YPos>1</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>-0.2</XPos>
+									<YPos>0</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>-0.00703</XPos>
+									<YPos>0</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>0.2</XPos>
+									<YPos>0</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>0.201</XPos>
+									<YPos>1</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>0.35</XPos>
+									<YPos>2</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>0.5</XPos>
+									<YPos>3</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>1</XPos>
+									<YPos>3</YPos>
+									<Flags>37</Flags>
+								</Point>
+							</PointList>
+						</Curve>
+					</SwitchOnRTPC>
+				</SwitchGroup>
+				<SwitchGroup Name="TurnSignal" ID="{E29160D1-D6C9-4B87-9881-8B2D056F602C}">
+					<ChildrenList>
+						<Switch Name="TurnOn" ID="{EA316EBC-DD88-4B25-AC9C-6B909BCA755A}"/>
+						<Switch Name="TurnOff" ID="{81A7A29B-2D63-4A41-AEF2-8FE780AABE96}"/>
+						<Switch Name="Sequence" ID="{0A2DA7E1-85FD-4384-B26C-A7EFD3982EA0}"/>
+						<Switch Name="Idle" ID="{256ED4DE-8857-45F6-BB95-AFC88258DE00}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="CrashType" ID="{981A133F-CE81-49F2-A0FD-FA84A1D91ABC}">
+					<ChildrenList>
+						<Switch Name="Small" ID="{2F1B92AF-A9CC-4304-A48F-E34A473A6762}"/>
+						<Switch Name="Big" ID="{18E38818-663B-4122-B1D3-E74066582BC7}"/>
+					</ChildrenList>
+					<SwitchOnRTPC>
+						<GameParameterRef Name="RTPC_Speed" ID="{8CEA0F11-3EA4-4D77-869C-A6A3ED1FDB8B}"/>
+						<Curve Name="" ID="{FE5E73E3-F94A-42D2-B48E-66B91743F75C}">
+							<PropertyList>
+								<Property Name="Flags" Type="int32" Value="65537"/>
+							</PropertyList>
+							<PointList>
+								<Point>
+									<XPos>0</XPos>
+									<YPos>0</YPos>
+									<Flags>5</Flags>
+								</Point>
+								<Point>
+									<XPos>30.94233</XPos>
+									<YPos>1</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>90.97046</XPos>
+									<YPos>2</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>220</XPos>
+									<YPos>0</YPos>
+									<Flags>37</Flags>
+								</Point>
+							</PointList>
+						</Curve>
+					</SwitchOnRTPC>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>D:\Projects\Unity\CarController\My project\My project_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>D:\Projects\Unity\CarController\My project\My project_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>D:\Projects\Unity\CarController\My project\My project_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>D:\Projects\Unity\CarController\My project\My project_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX" Hash="3220998094">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<IncludedAuxBusses>
+				<AuxBus Id="3375730903" Name="MallReverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\MallReverb"/>
+			</IncludedAuxBusses>
+			<GameParameters>
+				<GameParameter Id="1193280819" Name="RTPC_Load" ObjectPath="\Game Parameters\Default Work Unit\RTPC_Load"/>
+				<GameParameter Id="1381474336" Name="RTPC_Speed" ObjectPath="\Game Parameters\Default Work Unit\RTPC_Speed"/>
+				<GameParameter Id="2654500707" Name="RTPC_AccelSC" ObjectPath="\Game Parameters\Default Work Unit\SC\RTPC_AccelSC"/>
+				<GameParameter Id="3774151474" Name="RTPC_RPM" ObjectPath="\Game Parameters\Default Work Unit\RTPC_RPM"/>
+			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="3111576183" Name="Mall" ObjectPath="\States\Default Work Unit\Mall" GUID="{2612F304-F485-499D-8A8D-C67FB3368322}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Mall\None" GUID="{16D45B8F-FE11-440F-8434-D63E6ECEEA1B}"/>
+						<State Id="3553349781" Name="Inside" ObjectPath="\States\Default Work Unit\Mall\Inside" GUID="{C3F970A4-C7DB-437B-8D83-CDB412AB9949}"/>
+						<State Id="438105790" Name="Outside" ObjectPath="\States\Default Work Unit\Mall\Outside" GUID="{C534B2B0-3801-46EC-8465-11D1DFEFE54B}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
+		<SoundBank Id="4072029455" Language="SFX" Hash="922187327">
+			<ObjectPath>\SoundBanks\Default Work Unit\New_SoundBank</ObjectPath>
+			<ShortName>New_SoundBank</ShortName>
+			<Path>New_SoundBank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1134309211" Name="ABS" ObjectPath="\Events\Default Work Unit\ABS" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="3672365669" Name="AccelEngine" ObjectPath="\Events\Default Work Unit\AccelEngine" MaxAttenuation="30." DurationType="OneShot" DurationMin="0.904757" DurationMax="2.562166">
+					<IncludedMemoryFiles>
+						<File Id="112186756" Language="SFX">
+							<ShortName>Engine\Accel\Car_Engine_Engine_Accel_3.wav</ShortName>
+							<Path>SFX\Engine\Accel\Car_Engine_Engine_Accel_3_10C4C929.wem</Path>
+						</File>
+						<File Id="706575264" Language="SFX">
+							<ShortName>Engine\Accel\Car_Engine_Engine_Accel_4.wav</ShortName>
+							<Path>SFX\Engine\Accel\Car_Engine_Engine_Accel_4_10C4C929.wem</Path>
+						</File>
+						<File Id="977543483" Language="SFX">
+							<ShortName>Engine\Accel\Car_Engine_Engine_Accel_6.wav</ShortName>
+							<Path>SFX\Engine\Accel\Car_Engine_Engine_Accel_6_10C4C929.wem</Path>
+						</File>
+						<File Id="1001651583" Language="SFX">
+							<ShortName>Engine\Accel\Car_Engine_Engine_Accel_1.wav</ShortName>
+							<Path>SFX\Engine\Accel\Car_Engine_Engine_Accel_1_1D141ECB.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{4C560EC0-8CD6-47AE-9CAA-628CE5EE35FE}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{7A6BFF26-3F5B-4F94-A1FD-4E4B96448708}">
+							<Media>
+								<File Id="706575264"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{4210C292-1A11-478E-A8C6-82295F2B8160}">
+							<Media>
+								<File Id="977543483"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{336A9AAC-4045-4432-A2A8-FC42B4C2D51A}">
+							<Media>
+								<File Id="112186756"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{4C560EC0-8CD6-47AE-9CAA-628CE5EE35FE}">
+							<Media>
+								<File Id="1001651583"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="2877878251" Name="AccelExhaust" ObjectPath="\Events\Default Work Unit\AccelExhaust" MaxAttenuation="30." DurationType="OneShot" DurationMin="0.895161" DurationMax="1.623676">
+					<IncludedMemoryFiles>
+						<File Id="44667673" Language="SFX">
+							<ShortName>Engine\Accel\Car_Engine_Accel_1.wav</ShortName>
+							<Path>SFX\Engine\Accel\Car_Engine_Accel_1_10C4C929.wem</Path>
+						</File>
+						<File Id="154356491" Language="SFX">
+							<ShortName>Engine\Accel\Car_Engine_Accel_6.wav</ShortName>
+							<Path>SFX\Engine\Accel\Car_Engine_Accel_6_10C4C929.wem</Path>
+						</File>
+						<File Id="262197729" Language="SFX">
+							<ShortName>Engine\Accel\Car_Engine_Accel_3.wav</ShortName>
+							<Path>SFX\Engine\Accel\Car_Engine_Accel_3_10C4C929.wem</Path>
+						</File>
+						<File Id="1051488623" Language="SFX">
+							<ShortName>Engine\Accel\Car_Engine_Accel_4.wav</ShortName>
+							<Path>SFX\Engine\Accel\Car_Engine_Accel_4_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{4C560EC0-8CD6-47AE-9CAA-628CE5EE35FE}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{7A6BFF26-3F5B-4F94-A1FD-4E4B96448708}">
+							<Media>
+								<File Id="1051488623"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{4210C292-1A11-478E-A8C6-82295F2B8160}">
+							<Media>
+								<File Id="154356491"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{336A9AAC-4045-4432-A2A8-FC42B4C2D51A}">
+							<Media>
+								<File Id="262197729"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{4C560EC0-8CD6-47AE-9CAA-628CE5EE35FE}">
+							<Media>
+								<File Id="44667673"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="85412153" Name="Ambience" ObjectPath="\Events\Default Work Unit\Ambience" DurationType="OneShot" DurationMin="246.783997" DurationMax="246.783997">
+					<IncludedMemoryFiles>
+						<File Id="672988006" Language="SFX">
+							<ShortName>Ambience\amb_city_1.wav</ShortName>
+							<Path>SFX\Ambience\amb_city_1_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3720364492" Name="ContactDamage" ObjectPath="\Events\Default Work Unit\ContactDamage" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="1786804762" Name="Damage" ObjectPath="\Events\Default Work Unit\Damage" MaxAttenuation="30." DurationType="OneShot" DurationMin="1.195413" DurationMax="2.619002">
+					<IncludedMemoryFiles>
+						<File Id="137658741" Language="SFX">
+							<ShortName>Crashes\car_crash_16.wav</ShortName>
+							<Path>SFX\Crashes\car_crash_16_2724B6E9.wem</Path>
+						</File>
+						<File Id="176146743" Language="SFX">
+							<ShortName>Crashes\car_crash_11.wav</ShortName>
+							<Path>SFX\Crashes\car_crash_11_10C4C929.wem</Path>
+						</File>
+						<File Id="202290493" Language="SFX">
+							<ShortName>Crashes\car_crash_10.wav</ShortName>
+							<Path>SFX\Crashes\car_crash_10_E98C2F6C.wem</Path>
+						</File>
+						<File Id="457143004" Language="SFX">
+							<ShortName>Crashes\car_crash_17.wav</ShortName>
+							<Path>SFX\Crashes\car_crash_17_9879F9E4.wem</Path>
+						</File>
+						<File Id="501650068" Language="SFX">
+							<ShortName>Crashes\car_crash_07.wav</ShortName>
+							<Path>SFX\Crashes\car_crash_07_4255AFA5.wem</Path>
+						</File>
+						<File Id="690923970" Language="SFX">
+							<ShortName>Crashes\car_crash_13.wav</ShortName>
+							<Path>SFX\Crashes\car_crash_13_10C4C929.wem</Path>
+						</File>
+						<File Id="729272653" Language="SFX">
+							<ShortName>Crashes\car_crash_09.wav</ShortName>
+							<Path>SFX\Crashes\car_crash_09_10C4C929.wem</Path>
+						</File>
+						<File Id="881414870" Language="SFX">
+							<ShortName>Crashes\car_crash_08.wav</ShortName>
+							<Path>SFX\Crashes\car_crash_08_10C4C929.wem</Path>
+						</File>
+						<File Id="893900396" Language="SFX">
+							<ShortName>Crashes\car_crash_06.wav</ShortName>
+							<Path>SFX\Crashes\car_crash_06_10C4C929.wem</Path>
+						</File>
+						<File Id="895696907" Language="SFX">
+							<ShortName>Crashes\car_crash_18.wav</ShortName>
+							<Path>SFX\Crashes\car_crash_18_10C4C929.wem</Path>
+						</File>
+						<File Id="987101438" Language="SFX">
+							<ShortName>Crashes\car_crash_15.wav</ShortName>
+							<Path>SFX\Crashes\car_crash_15_3FCE40C5.wem</Path>
+						</File>
+						<File Id="1024323600" Language="SFX">
+							<ShortName>Crashes\Destruction, Crash &amp; Debris, Impact, Huge, Metal, Glass, Smash 02 SND42760.wav</ShortName>
+							<Path>SFX\Crashes\Destruction, Crash &amp; Debris, Impact, Huge, Metal, Glass, Smash 02 SND42760_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{2F1B92AF-A9CC-4304-A48F-E34A473A6762}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{18E38818-663B-4122-B1D3-E74066582BC7}">
+							<Media>
+								<File Id="137658741"/>
+								<File Id="202290493"/>
+								<File Id="501650068"/>
+								<File Id="729272653"/>
+								<File Id="893900396"/>
+								<File Id="987101438"/>
+								<File Id="1024323600"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{2F1B92AF-A9CC-4304-A48F-E34A473A6762}">
+							<Media>
+								<File Id="176146743"/>
+								<File Id="457143004"/>
+								<File Id="690923970"/>
+								<File Id="881414870"/>
+								<File Id="895696907"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="268529915" Name="Engine" ObjectPath="\Events\Default Work Unit\Engine" MaxAttenuation="30." DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="120572" Language="SFX">
+							<ShortName>Engine\Idle\Car_Engine_Engine_Idle.wav</ShortName>
+							<Path>SFX\Engine\Idle\Car_Engine_Engine_Idle_D79FB2B7.wem</Path>
+						</File>
+						<File Id="113164968" Language="SFX">
+							<ShortName>Engine\OnLoad\Engine\Car_Engine_Engine_OnLoad_5000.wav</ShortName>
+							<Path>SFX\Engine\OnLoad\Engine\Car_Engine_Engine_OnLoad_5000_D79FB2B7.wem</Path>
+						</File>
+						<File Id="502737660" Language="SFX">
+							<ShortName>Engine\Start_Stop\engine_start_1.wav</ShortName>
+							<Path>SFX\Engine\Start_Stop\engine_start_1_2A84F3D7.wem</Path>
+						</File>
+						<File Id="515485931" Language="SFX">
+							<ShortName>Engine\OnLoad\Engine\Car_Engine_Engine_OnLoad_3000.wav</ShortName>
+							<Path>SFX\Engine\OnLoad\Engine\Car_Engine_Engine_OnLoad_3000_D79FB2B7.wem</Path>
+						</File>
+						<File Id="526896939" Language="SFX">
+							<ShortName>Engine\OnLoad\Engine\Car_Engine_Engine_OnLoad_6500.wav</ShortName>
+							<Path>SFX\Engine\OnLoad\Engine\Car_Engine_Engine_OnLoad_6500_D79FB2B7.wem</Path>
+						</File>
+						<File Id="574504515" Language="SFX">
+							<ShortName>Engine\OffLoad\Engine\Car_Engine_Engine_OffLoad_5000.wav</ShortName>
+							<Path>SFX\Engine\OffLoad\Engine\Car_Engine_Engine_OffLoad_5000_D79FB2B7.wem</Path>
+						</File>
+						<File Id="699106932" Language="SFX">
+							<ShortName>Engine\OffLoad\Engine\Car_Engine_Engine_OffLoad_3000.wav</ShortName>
+							<Path>SFX\Engine\OffLoad\Engine\Car_Engine_Engine_OffLoad_3000_D79FB2B7.wem</Path>
+						</File>
+						<File Id="915005411" Language="SFX">
+							<ShortName>Engine\OffLoad\Engine\Car_Engine_Engine_OffLoad_1000.wav</ShortName>
+							<Path>SFX\Engine\OffLoad\Engine\Car_Engine_Engine_OffLoad_1000_D79FB2B7.wem</Path>
+						</File>
+						<File Id="1043940708" Language="SFX">
+							<ShortName>Engine\OnLoad\Engine\Car_Engine_Engine_OnLoad_1000.wav</ShortName>
+							<Path>SFX\Engine\OnLoad\Engine\Car_Engine_Engine_OnLoad_1000_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1377834261" Name="Exhaust" ObjectPath="\Events\Default Work Unit\Exhaust" MaxAttenuation="30." DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="63416310" Language="SFX">
+							<ShortName>Engine\OffLoad\Exhaust\Car_Engine_Exhaust_OffLoad-001.wav</ShortName>
+							<Path>SFX\Engine\OffLoad\Exhaust\Car_Engine_Exhaust_OffLoad-001_69A1F1D2.wem</Path>
+						</File>
+						<File Id="396794889" Language="SFX">
+							<ShortName>Engine\OnLoad\Exhaust\Car_Engine_Exhaust_Onload 5000.wav</ShortName>
+							<Path>SFX\Engine\OnLoad\Exhaust\Car_Engine_Exhaust_Onload 5000_D79FB2B7.wem</Path>
+						</File>
+						<File Id="523895531" Language="SFX">
+							<ShortName>Engine\OffLoad\Exhaust\Car_Engine_Exhaust_OffLoad 5000.wav</ShortName>
+							<Path>SFX\Engine\OffLoad\Exhaust\Car_Engine_Exhaust_OffLoad 5000_D79FB2B7.wem</Path>
+						</File>
+						<File Id="609595446" Language="SFX">
+							<ShortName>Engine\Idle\Car_Engine_Exhaust_Idle.wav</ShortName>
+							<Path>SFX\Engine\Idle\Car_Engine_Exhaust_Idle_BF02EBA2.wem</Path>
+						</File>
+						<File Id="634325272" Language="SFX">
+							<ShortName>Engine\OnLoad\Exhaust\Car_Engine_Exhaust_Onload 3000.wav</ShortName>
+							<Path>SFX\Engine\OnLoad\Exhaust\Car_Engine_Exhaust_Onload 3000_D79FB2B7.wem</Path>
+						</File>
+						<File Id="718662485" Language="SFX">
+							<ShortName>Engine\OnLoad\Exhaust\Car_Engine_Exhaust_Onload 1000.wav</ShortName>
+							<Path>SFX\Engine\OnLoad\Exhaust\Car_Engine_Exhaust_Onload 1000_D79FB2B7.wem</Path>
+						</File>
+						<File Id="744294758" Language="SFX">
+							<ShortName>Engine\Start_Stop\exhaust_start_1.wav</ShortName>
+							<Path>SFX\Engine\Start_Stop\exhaust_start_1_C881145F.wem</Path>
+						</File>
+						<File Id="953996259" Language="SFX">
+							<ShortName>Engine\OffLoad\Exhaust\Car_Engine_Exhaust_OffLoad 3000.wav</ShortName>
+							<Path>SFX\Engine\OffLoad\Exhaust\Car_Engine_Exhaust_OffLoad 3000_F21B48A0.wem</Path>
+						</File>
+						<File Id="966276250" Language="SFX">
+							<ShortName>Engine\OnLoad\Exhaust\Car_Engine_Exhaust_Onload 6500.wav</ShortName>
+							<Path>SFX\Engine\OnLoad\Exhaust\Car_Engine_Exhaust_Onload 6500_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1590552294" Name="Flame" ObjectPath="\Events\Default Work Unit\Flame" MaxAttenuation="30." DurationType="OneShot" DurationMin="0.110975" DurationMax="0.133764">
+					<IncludedMemoryFiles>
+						<File Id="120867604" Language="SFX">
+							<ShortName>Engine\Pops\Car_Engine_Exhaust_Pops-008.wav</ShortName>
+							<Path>SFX\Engine\Pops\Car_Engine_Exhaust_Pops-008_10C4C929.wem</Path>
+						</File>
+						<File Id="221324466" Language="SFX">
+							<ShortName>Engine\Pops\Car_Engine_Exhaust_Pops-007.wav</ShortName>
+							<Path>SFX\Engine\Pops\Car_Engine_Exhaust_Pops-007_10C4C929.wem</Path>
+						</File>
+						<File Id="263006248" Language="SFX">
+							<ShortName>Engine\Pops\Car_Engine_Exhaust_Pops-009.wav</ShortName>
+							<Path>SFX\Engine\Pops\Car_Engine_Exhaust_Pops-009_10C4C929.wem</Path>
+						</File>
+						<File Id="648246383" Language="SFX">
+							<ShortName>Engine\Pops\Car_Engine_Exhaust_Pops-006.wav</ShortName>
+							<Path>SFX\Engine\Pops\Car_Engine_Exhaust_Pops-006_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3539630744" Name="GearSwitchDown" ObjectPath="\Events\Default Work Unit\GearSwitchDown" MaxAttenuation="30." DurationType="OneShot" DurationMin="0.438866" DurationMax="0.719751">
+					<IncludedMemoryFiles>
+						<File Id="23843980" Language="SFX">
+							<ShortName>GearShift\Car_Gear_Shift-006.wav</ShortName>
+							<Path>SFX\GearShift\Car_Gear_Shift-006_10C4C929.wem</Path>
+						</File>
+						<File Id="59166732" Language="SFX">
+							<ShortName>GearShift\Car_Gear_Shift-005.wav</ShortName>
+							<Path>SFX\GearShift\Car_Gear_Shift-005_10C4C929.wem</Path>
+						</File>
+						<File Id="324449958" Language="SFX">
+							<ShortName>GearShift\Car_Gear_Shift-007.wav</ShortName>
+							<Path>SFX\GearShift\Car_Gear_Shift-007_10C4C929.wem</Path>
+						</File>
+						<File Id="449803082" Language="SFX">
+							<ShortName>GearShift\Car_Gear_Shift-002.wav</ShortName>
+							<Path>SFX\GearShift\Car_Gear_Shift-002_10C4C929.wem</Path>
+						</File>
+						<File Id="611885244" Language="SFX">
+							<ShortName>GearShift\Car_Gear_Shift-004.wav</ShortName>
+							<Path>SFX\GearShift\Car_Gear_Shift-004_10C4C929.wem</Path>
+						</File>
+						<File Id="854488364" Language="SFX">
+							<ShortName>GearShift\Car_Gear_Shift-001.wav</ShortName>
+							<Path>SFX\GearShift\Car_Gear_Shift-001_10C4C929.wem</Path>
+						</File>
+						<File Id="976882776" Language="SFX">
+							<ShortName>GearShift\Car_Gear_Shift-003.wav</ShortName>
+							<Path>SFX\GearShift\Car_Gear_Shift-003_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4124367675" Name="GearSwitchUp" ObjectPath="\Events\Default Work Unit\GearSwitchUp" MaxAttenuation="30." DurationType="OneShot" DurationMin="0.438866" DurationMax="0.719751">
+					<IncludedMemoryFiles>
+						<File Id="23843980" Language="SFX">
+							<ShortName>GearShift\Car_Gear_Shift-006.wav</ShortName>
+							<Path>SFX\GearShift\Car_Gear_Shift-006_10C4C929.wem</Path>
+						</File>
+						<File Id="59166732" Language="SFX">
+							<ShortName>GearShift\Car_Gear_Shift-005.wav</ShortName>
+							<Path>SFX\GearShift\Car_Gear_Shift-005_10C4C929.wem</Path>
+						</File>
+						<File Id="324449958" Language="SFX">
+							<ShortName>GearShift\Car_Gear_Shift-007.wav</ShortName>
+							<Path>SFX\GearShift\Car_Gear_Shift-007_10C4C929.wem</Path>
+						</File>
+						<File Id="449803082" Language="SFX">
+							<ShortName>GearShift\Car_Gear_Shift-002.wav</ShortName>
+							<Path>SFX\GearShift\Car_Gear_Shift-002_10C4C929.wem</Path>
+						</File>
+						<File Id="611885244" Language="SFX">
+							<ShortName>GearShift\Car_Gear_Shift-004.wav</ShortName>
+							<Path>SFX\GearShift\Car_Gear_Shift-004_10C4C929.wem</Path>
+						</File>
+						<File Id="854488364" Language="SFX">
+							<ShortName>GearShift\Car_Gear_Shift-001.wav</ShortName>
+							<Path>SFX\GearShift\Car_Gear_Shift-001_10C4C929.wem</Path>
+						</File>
+						<File Id="976882776" Language="SFX">
+							<ShortName>GearShift\Car_Gear_Shift-003.wav</ShortName>
+							<Path>SFX\GearShift\Car_Gear_Shift-003_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3405468100" Name="Indicator" ObjectPath="\Events\Default Work Unit\Indicator" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="854016402" Language="SFX">
+							<ShortName>TurnSignal\Car_TurnSignal_loop_1.wav</ShortName>
+							<Path>SFX\TurnSignal\Car_TurnSignal_loop_1_FCEDDEE5.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="544973847" Name="NOS" ObjectPath="\Events\Default Work Unit\NOS" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="37542003" Language="SFX">
+							<ShortName>Engine\NOS\Nitro Activation by strexet Id-404333 1.wav</ShortName>
+							<Path>SFX\Engine\NOS\Nitro Activation by strexet Id-404333 1_3EEC93B4.wem</Path>
+						</File>
+						<File Id="862095396" Language="SFX">
+							<ShortName>Engine\NOS\NOS + Pipe.wav</ShortName>
+							<Path>SFX\Engine\NOS\NOS + Pipe_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="749483426" Name="Play_Brakes" ObjectPath="\Events\Default Work Unit\Play_Brakes" MaxAttenuation="40." DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="232646756" Language="SFX">
+							<ShortName>Brakes\Car_Tires_Brake_Long_1-001.wav</ShortName>
+							<Path>SFX\Brakes\Car_Tires_Brake_Long_1-001_487E8EA5.wem</Path>
+						</File>
+						<File Id="369069701" Language="SFX">
+							<ShortName>Brakes\Vehicles, Brake, Car, Exterior, Pass By, Handbreak, Drift, Reverse, Gravel SND52141 3.wav</ShortName>
+							<Path>SFX\Brakes\Vehicles, Brake, Car, Exterior, Pass By, Handbreak, Drift, Reverse, Gravel SND52141 3_CD19925A.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{4BD7F66F-8B7D-47B4-8689-0ABEF6AEC0EC}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{3B8A0209-7413-4A91-9915-BAF616F5B2ED}">
+							<Media>
+								<File Id="369069701"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{4BD7F66F-8B7D-47B4-8689-0ABEF6AEC0EC}">
+							<Media>
+								<File Id="232646756"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="669976853" Name="Play_CrashLong" ObjectPath="\Events\Default Work Unit\Play_CrashLong" MaxAttenuation="30." DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="615050020" Language="SFX">
+							<ShortName>Crashes\collision_long.wav</ShortName>
+							<Path>SFX\Crashes\collision_long_3E088898.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3324933786" Name="Play_Handbreak" ObjectPath="\Events\Default Work Unit\Play_Handbreak" MaxAttenuation="40." DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="64743517" Language="SFX">
+							<ShortName>Brakes\Car_Tires_Brake_Long_2.wav</ShortName>
+							<Path>SFX\Brakes\Car_Tires_Brake_Long_2_9C994FDD.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="489739855" Name="Play_Quick_Brake" ObjectPath="\Events\Default Work Unit\Play_Quick_Brake" MaxAttenuation="40." DurationType="OneShot" DurationMin="0." DurationMax="0.912489">
+					<IncludedMemoryFiles>
+						<File Id="171440588" Language="SFX">
+							<ShortName>Brakes\Car_Tires_Brake_Quick_2.wav</ShortName>
+							<Path>SFX\Brakes\Car_Tires_Brake_Quick_2_10C4C929.wem</Path>
+						</File>
+						<File Id="682453562" Language="SFX">
+							<ShortName>Brakes\Car_Tires_Brake_Short_1.wav</ShortName>
+							<Path>SFX\Brakes\Car_Tires_Brake_Short_1_10C4C929.wem</Path>
+						</File>
+						<File Id="814134884" Language="SFX">
+							<ShortName>Brakes\Car_Tires_Brake_Quick_1.wav</ShortName>
+							<Path>SFX\Brakes\Car_Tires_Brake_Quick_1_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2102349170" Name="Repair" ObjectPath="\Events\Default Work Unit\Repair" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="2566788879" Name="RoadBump" ObjectPath="\Events\Default Work Unit\RoadBump" MaxAttenuation="30." DurationType="OneShot" DurationMin="0.39873" DurationMax="0.485737">
+					<IncludedMemoryFiles>
+						<File Id="166425492" Language="SFX">
+							<ShortName>Ambience\RoadBumps\road_bumps_3.wav</ShortName>
+							<Path>SFX\Ambience\RoadBumps\road_bumps_3_10C4C929.wem</Path>
+						</File>
+						<File Id="450451004" Language="SFX">
+							<ShortName>Ambience\RoadBumps\road_bumps_2.wav</ShortName>
+							<Path>SFX\Ambience\RoadBumps\road_bumps_2_10C4C929.wem</Path>
+						</File>
+						<File Id="672090062" Language="SFX">
+							<ShortName>Ambience\RoadBumps\road_bumps_5.wav</ShortName>
+							<Path>SFX\Ambience\RoadBumps\road_bumps_5_10C4C929.wem</Path>
+						</File>
+						<File Id="915750086" Language="SFX">
+							<ShortName>Ambience\RoadBumps\road_bumps_4.wav</ShortName>
+							<Path>SFX\Ambience\RoadBumps\road_bumps_4_10C4C929.wem</Path>
+						</File>
+						<File Id="979156606" Language="SFX">
+							<ShortName>Ambience\RoadBumps\road_bumps_1.wav</ShortName>
+							<Path>SFX\Ambience\RoadBumps\road_bumps_1_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="822292696" Name="Skid" ObjectPath="\Events\Default Work Unit\Skid" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="1775716168" Name="Stop_Brakes" ObjectPath="\Events\Default Work Unit\Stop_Brakes" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="1812414295" Name="Stop_CrashLong" ObjectPath="\Events\Default Work Unit\Stop_CrashLong" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="933980564" Name="Stop_Handbreak" ObjectPath="\Events\Default Work Unit\Stop_Handbreak" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="2788506979" Name="Stop_Indicator" ObjectPath="\Events\Default Work Unit\Stop_Indicator" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="3006696107" Name="Tire" ObjectPath="\Events\Default Work Unit\Tire" MaxAttenuation="30." DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="467779935" Language="SFX">
+							<ShortName>TiresSurface\Grass\Car_Tires_Grass.wav</ShortName>
+							<Path>SFX\TiresSurface\Grass\Car_Tires_Grass_10C4C929.wem</Path>
+						</File>
+						<File Id="891678877" Language="SFX">
+							<ShortName>TiresSurface\Asphalt\Car_Tires_Asphalt.wav</ShortName>
+							<Path>SFX\TiresSurface\Asphalt\Car_Tires_Asphalt_E75A7341.wem</Path>
+						</File>
+						<File Id="1038490921" Language="SFX">
+							<ShortName>TiresSurface\Gravel\Car_Tires_Gravel_L.wav</ShortName>
+							<Path>SFX\TiresSurface\Gravel\Car_Tires_Gravel_L_D2BEA90D.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{3B8A0209-7413-4A91-9915-BAF616F5B2ED}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{3B8A0209-7413-4A91-9915-BAF616F5B2ED}">
+							<Media>
+								<File Id="1038490921"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{BECE8D65-93CF-4755-AA97-36769BC0610F}">
+							<Media>
+								<File Id="467779935"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{4BD7F66F-8B7D-47B4-8689-0ABEF6AEC0EC}">
+							<Media>
+								<File Id="891678877"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="1018940110" Name="RTPC_Direction" ObjectPath="\Game Parameters\Default Work Unit\RTPC_Direction"/>
+				<GameParameter Id="1193280819" Name="RTPC_Load" ObjectPath="\Game Parameters\Default Work Unit\RTPC_Load"/>
+				<GameParameter Id="1381474336" Name="RTPC_Speed" ObjectPath="\Game Parameters\Default Work Unit\RTPC_Speed"/>
+				<GameParameter Id="1689494181" Name="RTPC_DriftAngle" ObjectPath="\Game Parameters\Default Work Unit\RTPC_DriftAngle"/>
+				<GameParameter Id="2654500707" Name="RTPC_AccelSC" ObjectPath="\Game Parameters\Default Work Unit\SC\RTPC_AccelSC"/>
+				<GameParameter Id="3108363069" Name="RTPC_IsAirborne" ObjectPath="\Game Parameters\Default Work Unit\RTPC_IsAirborne"/>
+				<GameParameter Id="3368035288" Name="RTPC_DriftAmount" ObjectPath="\Game Parameters\Default Work Unit\RTPC_DriftAmount"/>
+				<GameParameter Id="3774151474" Name="RTPC_RPM" ObjectPath="\Game Parameters\Default Work Unit\RTPC_RPM"/>
+				<GameParameter Id="3806866312" Name="RTPC_NOSIntencity" ObjectPath="\Game Parameters\Default Work Unit\RTPC_NOSIntencity"/>
+			</GameParameters>
+			<SwitchGroups>
+				<SwitchGroup Id="1333843330" Name="AccelIntencity" ObjectPath="\Switches\Default Work Unit\AccelIntencity" GUID="{007A180A-513A-4C94-A3DA-C572C1C7B57F}">
+					<Switches>
+						<Switch Id="545371365" Name="Low" ObjectPath="\Switches\Default Work Unit\AccelIntencity\Low" GUID="{4C560EC0-8CD6-47AE-9CAA-628CE5EE35FE}"/>
+						<Switch Id="981339021" Name="Med" ObjectPath="\Switches\Default Work Unit\AccelIntencity\Med" GUID="{336A9AAC-4045-4432-A2A8-FC42B4C2D51A}"/>
+						<Switch Id="3550808449" Name="High" ObjectPath="\Switches\Default Work Unit\AccelIntencity\High" GUID="{7A6BFF26-3F5B-4F94-A1FD-4E4B96448708}"/>
+						<Switch Id="390941685" Name="VeryHigh" ObjectPath="\Switches\Default Work Unit\AccelIntencity\VeryHigh" GUID="{4210C292-1A11-478E-A8C6-82295F2B8160}"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="1834394558" Name="Surface" ObjectPath="\Switches\Default Work Unit\Surface" GUID="{C2614EF1-490F-437F-9B22-16C8CD6C643E}">
+					<Switches>
+						<Switch Id="2185786256" Name="Gravel" ObjectPath="\Switches\Default Work Unit\Surface\Gravel" GUID="{3B8A0209-7413-4A91-9915-BAF616F5B2ED}"/>
+						<Switch Id="4248645337" Name="Grass" ObjectPath="\Switches\Default Work Unit\Surface\Grass" GUID="{BECE8D65-93CF-4755-AA97-36769BC0610F}"/>
+						<Switch Id="4169408098" Name="Asphalt" ObjectPath="\Switches\Default Work Unit\Surface\Asphalt" GUID="{4BD7F66F-8B7D-47B4-8689-0ABEF6AEC0EC}"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="3838421974" Name="CrashType" ObjectPath="\Switches\Default Work Unit\CrashType" GUID="{981A133F-CE81-49F2-A0FD-FA84A1D91ABC}">
+					<Switches>
+						<Switch Id="1846755610" Name="Small" ObjectPath="\Switches\Default Work Unit\CrashType\Small" GUID="{2F1B92AF-A9CC-4304-A48F-E34A473A6762}"/>
+						<Switch Id="647611021" Name="Big" ObjectPath="\Switches\Default Work Unit\CrashType\Big" GUID="{18E38818-663B-4122-B1D3-E74066582BC7}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

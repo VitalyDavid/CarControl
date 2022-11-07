@@ -1,0 +1,197 @@
+Event	ID	Name			Wwise Object Path	Notes
+	85412153	Ambience			\Default Work Unit\Ambience	
+	268529915	Engine			\Default Work Unit\Engine	
+	489739855	Play_Quick_Brake			\Default Work Unit\Play_Quick_Brake	
+	544973847	NOS			\Default Work Unit\NOS	
+	669976853	Play_CrashLong			\Default Work Unit\Play_CrashLong	
+	749483426	Play_Brakes			\Default Work Unit\Play_Brakes	
+	822292696	Skid			\Default Work Unit\Skid	
+	933980564	Stop_Handbreak			\Default Work Unit\Stop_Handbreak	
+	1134309211	ABS			\Default Work Unit\ABS	
+	1377834261	Exhaust			\Default Work Unit\Exhaust	
+	1590552294	Flame			\Default Work Unit\Flame	
+	1775716168	Stop_Brakes			\Default Work Unit\Stop_Brakes	
+	1786804762	Damage			\Default Work Unit\Damage	
+	1812414295	Stop_CrashLong			\Default Work Unit\Stop_CrashLong	
+	2102349170	Repair			\Default Work Unit\Repair	
+	2566788879	RoadBump			\Default Work Unit\RoadBump	
+	2788506979	Stop_Indicator			\Default Work Unit\Stop_Indicator	
+	2877878251	AccelExhaust			\Default Work Unit\AccelExhaust	
+	3006696107	Tire			\Default Work Unit\Tire	
+	3324933786	Play_Handbreak			\Default Work Unit\Play_Handbreak	
+	3405468100	Indicator			\Default Work Unit\Indicator	
+	3539630744	GearSwitchDown			\Default Work Unit\GearSwitchDown	
+	3672365669	AccelEngine			\Default Work Unit\AccelEngine	
+	3720364492	ContactDamage			\Default Work Unit\ContactDamage	
+	4124367675	GearSwitchUp			\Default Work Unit\GearSwitchUp	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	1333843330	AccelIntencity			\Default Work Unit\AccelIntencity	
+	1834394558	Surface			\Default Work Unit\Surface	
+	3838421974	CrashType			\Default Work Unit\CrashType	
+
+Switch	ID	Name	Switch Group			Notes
+	390941685	VeryHigh	AccelIntencity			
+	545371365	Low	AccelIntencity			
+	981339021	Med	AccelIntencity			
+	3550808449	High	AccelIntencity			
+	2185786256	Gravel	Surface			
+	4169408098	Asphalt	Surface			
+	4248645337	Grass	Surface			
+	647611021	Big	CrashType			
+	1846755610	Small	CrashType			
+
+State Group	ID	Name			Wwise Object Path	Notes
+	523229933	Load			\Default Work Unit\Load	
+	1166993875	IsAirborne			\Default Work Unit\IsAirborne	
+	1834394558	Surface			\Default Work Unit\Surface	
+	2959914603	IsBraking			\Default Work Unit\IsBraking	
+
+State	ID	Name	State Group			Notes
+	748895195	None	Load			
+	2466053606	OnLoad	Load			
+	2987420976	OffLoad	Load			
+	748895195	None	IsAirborne			
+	2452206122	False	IsAirborne			
+	3053630529	True	IsAirborne			
+	748895195	None	Surface			
+	2185786256	Gravel	Surface			
+	4169408098	Asphalt	Surface			
+	4248645337	Grass	Surface			
+	748895195	None	IsBraking			
+	2452206122	False	IsBraking			
+	3053630529	True	IsBraking			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	186923458	True	IsBraking	\Actor-Mixer Hierarchy\Car\TiresSurface		
+	396923263	True	IsAirborne	\Actor-Mixer Hierarchy\Car\BrakesMix		
+	425958127	Gravel	Surface	\Actor-Mixer Hierarchy\Car\BrakesMix		
+	699831316	True	IsAirborne	\Actor-Mixer Hierarchy\Car\TiresSurface		
+	889121582	Grass	Surface	\Actor-Mixer Hierarchy\Car\BrakesMix		
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1018940110	RTPC_Direction			\Default Work Unit\RTPC_Direction	
+	1193280819	RTPC_Load			\Default Work Unit\RTPC_Load	
+	1381474336	RTPC_Speed			\Default Work Unit\RTPC_Speed	
+	1689494181	RTPC_DriftAngle			\Default Work Unit\RTPC_DriftAngle	
+	2654500707	RTPC_AccelSC			\Default Work Unit\SC\RTPC_AccelSC	
+	3108363069	RTPC_IsAirborne			\Default Work Unit\RTPC_IsAirborne	
+	3368035288	RTPC_DriftAmount			\Default Work Unit\RTPC_DriftAmount	
+	3774151474	RTPC_RPM			\Default Work Unit\RTPC_RPM	
+	3806866312	RTPC_NOSIntencity			\Default Work Unit\RTPC_NOSIntencity	
+
+Modulator LFO	ID	Name			Wwise Object Path	Notes
+	172889382	Modulator LFO (Custom)				
+	369220123	Modulator LFO (Custom)				
+	1069019188	Modulator LFO (Custom)				
+
+Modulator Envelope	ID	Name			Wwise Object Path	Notes
+	335111989	Modulator Envelope (Custom)				
+	796110872	Modulator Envelope (Custom)				
+
+Effect plug-ins	ID	Name	Type				Notes
+	45511833	Wwise Parametric EQ (Custom)	Wwise Parametric EQ			
+	65207634	Wwise Parametric EQ (Custom)	Wwise Parametric EQ			
+	107629867	Wwise Compressor (Custom)	Wwise Compressor			
+	126099103	Wwise Compressor (Custom)	Wwise Compressor			
+	142231453	Wwise Parametric EQ (Custom)	Wwise Parametric EQ			
+	155615775	Wwise Guitar Distortion (Custom)	Wwise Guitar Distortion			
+	156396472	Wwise Parametric EQ (Custom)	Wwise Parametric EQ			
+	185215807	Wwise Guitar Distortion (Custom)	Wwise Guitar Distortion			
+	196881118	Wwise Flanger (Custom)	Wwise Flanger			
+	355471088	Wwise Parametric EQ (Custom)	Wwise Parametric EQ			
+	356775271	Wwise Parametric EQ (Custom)	Wwise Parametric EQ			
+	372224998	Wwise Parametric EQ (Custom)	Wwise Parametric EQ			
+	397043170	Wwise Guitar Distortion (Custom)	Wwise Guitar Distortion			
+	408255939	Wwise Parametric EQ (Custom)	Wwise Parametric EQ			
+	448113577	Wwise Compressor (Custom)	Wwise Compressor			
+	478399224	Wwise Guitar Distortion (Custom)	Wwise Guitar Distortion			
+	481463002	Wwise Guitar Distortion (Custom)	Wwise Guitar Distortion			
+	482502512	Wwise Parametric EQ (Custom)	Wwise Parametric EQ			
+	507077147	Wwise Parametric EQ (Custom)	Wwise Parametric EQ			
+	528447902	Wwise Guitar Distortion (Custom)	Wwise Guitar Distortion			
+	612645334	Wwise Parametric EQ (Custom)	Wwise Parametric EQ			
+	669466935	Wwise RoomVerb (Custom)	Wwise RoomVerb			
+	708598280	Wwise Parametric EQ (Custom)	Wwise Parametric EQ			
+	726957642	Wwise Guitar Distortion (Custom)	Wwise Guitar Distortion			
+	734052429	Wwise RoomVerb (Custom)	Wwise RoomVerb			
+	739904335	Wwise Parametric EQ (Custom)	Wwise Parametric EQ			
+	759401271	Wwise Parametric EQ (Custom)	Wwise Parametric EQ			
+	824151600	Wwise Parametric EQ (Custom)	Wwise Parametric EQ			
+	864393400	Wwise Parametric EQ (Custom)	Wwise Parametric EQ			
+	899490868	Wwise Parametric EQ (Custom)	Wwise Parametric EQ			
+	992254831	Wwise Compressor (Custom)	Wwise Compressor			
+	1021285852	Wwise Parametric EQ (Custom)	Wwise Parametric EQ			
+	1029436232	Wwise Parametric EQ (Custom)	Wwise Parametric EQ			
+	1038009602	Wwise Guitar Distortion (Custom)	Wwise Guitar Distortion			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	120572	Car_Engine_Engine_Idle	D:\Projects\Unity\CarController\My project\My project_WwiseProject\.cache\Mac\SFX\Engine\Idle\Car_Engine_Engine_Idle_D79FB2B7.wem		\Actor-Mixer Hierarchy\Car\Engine\EngineAngle\EngineSeq\Engine\Car_Engine_Engine_Idle		2388152
+	23843980	Car_Gear_Shift-006	D:\Projects\Unity\CarController\My project\My project_WwiseProject\.cache\Mac\SFX\GearShift\Car_Gear_Shift-006_10C4C929.wem		\Actor-Mixer Hierarchy\Car\GearShift\Car_Gear_Shift-006		82784
+	37542003	NOS_SciFi	D:\Projects\Unity\CarController\My project\My project_WwiseProject\.cache\Mac\SFX\Engine\NOS\Nitro Activation by strexet Id-404333 1_3EEC93B4.wem		\Actor-Mixer Hierarchy\Car\Engine\NOS\NOS_SciFi		238412
+	44667673	Car_Engine_Accel_1	D:\Projects\Unity\CarController\My project\My project_WwiseProject\.cache\Mac\SFX\Engine\Accel\Car_Engine_Accel_1_10C4C929.wem		\Actor-Mixer Hierarchy\Car\Engine\Acceleration\ExhaustAccel\Lo\Car_Engine_Accel_1		177308
+	59166732	Car_Gear_Shift-005	D:\Projects\Unity\CarController\My project\My project_WwiseProject\.cache\Mac\SFX\GearShift\Car_Gear_Shift-005_10C4C929.wem		\Actor-Mixer Hierarchy\Car\GearShift\Car_Gear_Shift-005		95400
+	63416310	Car_Engine_Exhaust_OffLoad 1000	D:\Projects\Unity\CarController\My project\My project_WwiseProject\.cache\Mac\SFX\Engine\OffLoad\Exhaust\Car_Engine_Exhaust_OffLoad-001_69A1F1D2.wem		\Actor-Mixer Hierarchy\Car\Engine\EngineAngle\ExhaustSeq\Exhaust\Car_Engine_Exhaust_OffLoad 1000		1792892
+	64743517	Car_Tires_Brake_Long_2	D:\Projects\Unity\CarController\My project\My project_WwiseProject\.cache\Mac\SFX\Brakes\Car_Tires_Brake_Long_2_9C994FDD.wem		\Actor-Mixer Hierarchy\Car\BrakesMix\Medium_Brake\Car_Tires_Brake_Long_2		520316
+	112186756	Car_Engine_Engine_Accel_3	D:\Projects\Unity\CarController\My project\My project_WwiseProject\.cache\Mac\SFX\Engine\Accel\Car_Engine_Engine_Accel_3_10C4C929.wem		\Actor-Mixer Hierarchy\Car\Engine\Acceleration\EngineAccel\Med\Car_Engine_Engine_Accel_3		225956
+	113164968	Car_Engine_Engine_OnLoad_5000	D:\Projects\Unity\CarController\My project\My project_WwiseProject\.cache\Mac\SFX\Engine\OnLoad\Engine\Car_Engine_Engine_OnLoad_5000_D79FB2B7.wem		\Actor-Mixer Hierarchy\Car\Engine\EngineAngle\EngineSeq\Engine\Car_Engine_Engine_OnLoad_5000		1323808
+	120867604	Car_Engine_Exhaust_Pops-008	D:\Projects\Unity\CarController\My project\My project_WwiseProject\.cache\Mac\SFX\Engine\Pops\Car_Engine_Exhaust_Pops-008_10C4C929.wem		\Actor-Mixer Hierarchy\Car\Engine\Pops\Car_Engine_Exhaust_Pops-008		19640
+	137658741	car_crash_16	D:\Projects\Unity\CarController\My project\My project_WwiseProject\.cache\Mac\SFX\Crashes\car_crash_16_2724B6E9.wem		\Actor-Mixer Hierarchy\Car\Crashes\CrashType\BigCrash\car_crash_16		210936
+	154356491	Car_Engine_Accel_6	D:\Projects\Unity\CarController\My project\My project_WwiseProject\.cache\Mac\SFX\Engine\Accel\Car_Engine_Accel_6_10C4C929.wem		\Actor-Mixer Hierarchy\Car\Engine\Acceleration\ExhaustAccel\VeryHi\Car_Engine_Accel_6		255232
+	166425492	road_bumps_3	D:\Projects\Unity\CarController\My project\My project_WwiseProject\.cache\Mac\SFX\Ambience\RoadBumps\road_bumps_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Road_Bumps\road_bumps_3		74940
+	171440588	Car_Tires_Brake_Quick_2	D:\Projects\Unity\CarController\My project\My project_WwiseProject\.cache\Mac\SFX\Brakes\Car_Tires_Brake_Quick_2_10C4C929.wem		\Actor-Mixer Hierarchy\Car\BrakesMix\Quick_Brake\Car_Tires_Brake_Quick_2		145132
+	176146743	car_crash_11	D:\Projects\Unity\CarController\My project\My project_WwiseProject\.cache\Mac\SFX\Crashes\car_crash_11_10C4C929.wem		\Actor-Mixer Hierarchy\Car\Crashes\CrashType\SmallCrash\car_crash_11		219684
+	202290493	car_crash_10	D:\Projects\Unity\CarController\My project\My project_WwiseProject\.cache\Mac\SFX\Crashes\car_crash_10_E98C2F6C.wem		\Actor-Mixer Hierarchy\Car\Crashes\CrashType\BigCrash\car_crash_10		373052
+	221324466	Car_Engine_Exhaust_Pops-007	D:\Projects\Unity\CarController\My project\My project_WwiseProject\.cache\Mac\SFX\Engine\Pops\Car_Engine_Exhaust_Pops-007_10C4C929.wem		\Actor-Mixer Hierarchy\Car\Engine\Pops\Car_Engine_Exhaust_Pops-007		22648
+	232646756	Car_Tires_Brake_Long_Asphalt	D:\Projects\Unity\CarController\My project\My project_WwiseProject\.cache\Mac\SFX\Brakes\Car_Tires_Brake_Long_1-001_487E8EA5.wem		\Actor-Mixer Hierarchy\Car\BrakesMix\Long_Brake\Surface_Type\Aspalt\Car_Tires_Brake_Long_Asphalt		433636
+	262197729	Car_Engine_Accel_3	D:\Projects\Unity\CarController\My project\My project_WwiseProject\.cache\Mac\SFX\Engine\Accel\Car_Engine_Accel_3_10C4C929.wem		\Actor-Mixer Hierarchy\Car\Engine\Acceleration\ExhaustAccel\Med\Car_Engine_Accel_3		220532
+	263006248	Car_Engine_Exhaust_Pops-009	D:\Projects\Unity\CarController\My project\My project_WwiseProject\.cache\Mac\SFX\Engine\Pops\Car_Engine_Exhaust_Pops-009_10C4C929.wem		\Actor-Mixer Hierarchy\Car\Engine\Pops\Car_Engine_Exhaust_Pops-009		23076
+	324449958	Car_Gear_Shift-007	D:\Projects\Unity\CarController\My project\My project_WwiseProject\.cache\Mac\SFX\GearShift\Car_Gear_Shift-007_10C4C929.wem		\Actor-Mixer Hierarchy\Car\GearShift\Car_Gear_Shift-007		108824
+	369069701	Car_Tires_Brake_Long_Gravel	D:\Projects\Unity\CarController\My project\My project_WwiseProject\.cache\Mac\SFX\Brakes\Vehicles, Brake, Car, Exterior, Pass By, Handbreak, Drift, Reverse, Gravel SND52141 3_CD19925A.wem		\Actor-Mixer Hierarchy\Car\BrakesMix\Long_Brake\Surface_Type\Gravel\Car_Tires_Brake_Long_Gravel		313042
+	396794889	Car_Engine_Exhaust_Onload 5000	D:\Projects\Unity\CarController\My project\My project_WwiseProject\.cache\Mac\SFX\Engine\OnLoad\Exhaust\Car_Engine_Exhaust_Onload 5000_D79FB2B7.wem		\Actor-Mixer Hierarchy\Car\Engine\EngineAngle\ExhaustSeq\Exhaust\Car_Engine_Exhaust_Onload 5000		2242588
+	449803082	Car_Gear_Shift-002	D:\Projects\Unity\CarController\My project\My project_WwiseProject\.cache\Mac\SFX\GearShift\Car_Gear_Shift-002_10C4C929.wem		\Actor-Mixer Hierarchy\Car\GearShift\Car_Gear_Shift-002		92124
+	450451004	road_bumps_2	D:\Projects\Unity\CarController\My project\My project_WwiseProject\.cache\Mac\SFX\Ambience\RoadBumps\road_bumps_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Road_Bumps\road_bumps_2		83156
+	457143004	car_crash_17	D:\Projects\Unity\CarController\My project\My project_WwiseProject\.cache\Mac\SFX\Crashes\car_crash_17_9879F9E4.wem		\Actor-Mixer Hierarchy\Car\Crashes\CrashType\SmallCrash\car_crash_17		284736
+	467779935	Car_Tires_Grass	D:\Projects\Unity\CarController\My project\My project_WwiseProject\.cache\Mac\SFX\TiresSurface\Grass\Car_Tires_Grass_10C4C929.wem		\Actor-Mixer Hierarchy\Car\TiresSurface\Car_Tires_Grass		7150240
+	501650068	car_crash_07	D:\Projects\Unity\CarController\My project\My project_WwiseProject\.cache\Mac\SFX\Crashes\car_crash_07_4255AFA5.wem		\Actor-Mixer Hierarchy\Car\Crashes\CrashType\BigCrash\car_crash_07		225092
+	502737660	EngineStart	D:\Projects\Unity\CarController\My project\My project_WwiseProject\.cache\Mac\SFX\Engine\Start_Stop\engine_start_1_2A84F3D7.wem		\Actor-Mixer Hierarchy\Car\Engine\EngineAngle\EngineSeq\EngineStart		459028
+	515485931	Car_Engine_Engine_OnLoad_3000	D:\Projects\Unity\CarController\My project\My project_WwiseProject\.cache\Mac\SFX\Engine\OnLoad\Engine\Car_Engine_Engine_OnLoad_3000_D79FB2B7.wem		\Actor-Mixer Hierarchy\Car\Engine\EngineAngle\EngineSeq\Engine\Car_Engine_Engine_OnLoad_3000		1957916
+	523895531	Car_Engine_Exhaust_OffLoad 5000	D:\Projects\Unity\CarController\My project\My project_WwiseProject\.cache\Mac\SFX\Engine\OffLoad\Exhaust\Car_Engine_Exhaust_OffLoad 5000_D79FB2B7.wem		\Actor-Mixer Hierarchy\Car\Engine\EngineAngle\ExhaustSeq\Exhaust\Car_Engine_Exhaust_OffLoad 5000		1741464
+	526896939	Car_Engine_Engine_OnLoad_6500	D:\Projects\Unity\CarController\My project\My project_WwiseProject\.cache\Mac\SFX\Engine\OnLoad\Engine\Car_Engine_Engine_OnLoad_6500_D79FB2B7.wem		\Actor-Mixer Hierarchy\Car\Engine\EngineAngle\EngineSeq\Engine\Car_Engine_Engine_OnLoad_6500		2212136
+	574504515	Car_Engine_Engine_OffLoad_5000	D:\Projects\Unity\CarController\My project\My project_WwiseProject\.cache\Mac\SFX\Engine\OffLoad\Engine\Car_Engine_Engine_OffLoad_5000_D79FB2B7.wem		\Actor-Mixer Hierarchy\Car\Engine\EngineAngle\EngineSeq\Engine\Car_Engine_Engine_OffLoad_5000		1138828
+	609595446	Car_Engine_Exhaust_Idle	D:\Projects\Unity\CarController\My project\My project_WwiseProject\.cache\Mac\SFX\Engine\Idle\Car_Engine_Exhaust_Idle_BF02EBA2.wem		\Actor-Mixer Hierarchy\Car\Engine\EngineAngle\ExhaustSeq\Exhaust\Car_Engine_Exhaust_Idle		844876
+	611885244	Car_Gear_Shift-004	D:\Projects\Unity\CarController\My project\My project_WwiseProject\.cache\Mac\SFX\GearShift\Car_Gear_Shift-004_10C4C929.wem		\Actor-Mixer Hierarchy\Car\GearShift\Car_Gear_Shift-004		77480
+	615050020	collision_long	D:\Projects\Unity\CarController\My project\My project_WwiseProject\.cache\Mac\SFX\Crashes\collision_long_3E088898.wem		\Actor-Mixer Hierarchy\Car\Crashes\LongCollisions\collision_long		2469728
+	634325272	Car_Engine_Exhaust_Onload 3000	D:\Projects\Unity\CarController\My project\My project_WwiseProject\.cache\Mac\SFX\Engine\OnLoad\Exhaust\Car_Engine_Exhaust_Onload 3000_D79FB2B7.wem		\Actor-Mixer Hierarchy\Car\Engine\EngineAngle\ExhaustSeq\Exhaust\Car_Engine_Exhaust_Onload 3000		1759960
+	648246383	Car_Engine_Exhaust_Pops-006	D:\Projects\Unity\CarController\My project\My project_WwiseProject\.cache\Mac\SFX\Engine\Pops\Car_Engine_Exhaust_Pops-006_10C4C929.wem		\Actor-Mixer Hierarchy\Car\Engine\Pops\Car_Engine_Exhaust_Pops-006		23660
+	672090062	road_bumps_5	D:\Projects\Unity\CarController\My project\My project_WwiseProject\.cache\Mac\SFX\Ambience\RoadBumps\road_bumps_5_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Road_Bumps\road_bumps_5		85748
+	672988006	amb_city_1	D:\Projects\Unity\CarController\My project\My project_WwiseProject\.cache\Mac\SFX\Ambience\amb_city_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\amb_city_1		43532760
+	682453562	Car_Tires_Brake_Short_1	D:\Projects\Unity\CarController\My project\My project_WwiseProject\.cache\Mac\SFX\Brakes\Car_Tires_Brake_Short_1_10C4C929.wem		\Actor-Mixer Hierarchy\Car\BrakesMix\Quick_Brake\Car_Tires_Brake_Short_1		146572
+	690923970	car_crash_13	D:\Projects\Unity\CarController\My project\My project_WwiseProject\.cache\Mac\SFX\Crashes\car_crash_13_10C4C929.wem		\Actor-Mixer Hierarchy\Car\Crashes\CrashType\SmallCrash\car_crash_13		235380
+	699106932	Car_Engine_Engine_OffLoad_3000	D:\Projects\Unity\CarController\My project\My project_WwiseProject\.cache\Mac\SFX\Engine\OffLoad\Engine\Car_Engine_Engine_OffLoad_3000_D79FB2B7.wem		\Actor-Mixer Hierarchy\Car\Engine\EngineAngle\EngineSeq\Engine\Car_Engine_Engine_OffLoad_3000		2461220
+	706575264	Car_Engine_Engine_Accel_4	D:\Projects\Unity\CarController\My project\My project_WwiseProject\.cache\Mac\SFX\Engine\Accel\Car_Engine_Engine_Accel_4_10C4C929.wem		\Actor-Mixer Hierarchy\Car\Engine\Acceleration\EngineAccel\Hi\Car_Engine_Engine_Accel_4		222748
+	718662485	Car_Engine_Exhaust_Onload 1000	D:\Projects\Unity\CarController\My project\My project_WwiseProject\.cache\Mac\SFX\Engine\OnLoad\Exhaust\Car_Engine_Exhaust_Onload 1000_D79FB2B7.wem		\Actor-Mixer Hierarchy\Car\Engine\EngineAngle\ExhaustSeq\Exhaust\Car_Engine_Exhaust_Onload 1000		1472676
+	729272653	car_crash_09	D:\Projects\Unity\CarController\My project\My project_WwiseProject\.cache\Mac\SFX\Crashes\car_crash_09_10C4C929.wem		\Actor-Mixer Hierarchy\Car\Crashes\CrashType\BigCrash\car_crash_09		390612
+	744294758	EngineStart	D:\Projects\Unity\CarController\My project\My project_WwiseProject\.cache\Mac\SFX\Engine\Start_Stop\exhaust_start_1_C881145F.wem		\Actor-Mixer Hierarchy\Car\Engine\EngineAngle\ExhaustSeq\EngineStart		459172
+	814134884	Car_Tires_Brake_Quick_1	D:\Projects\Unity\CarController\My project\My project_WwiseProject\.cache\Mac\SFX\Brakes\Car_Tires_Brake_Quick_1_10C4C929.wem		\Actor-Mixer Hierarchy\Car\BrakesMix\Quick_Brake\Car_Tires_Brake_Quick_1		145132
+	854016402	Car_TurnSignal_loop_1	D:\Projects\Unity\CarController\My project\My project_WwiseProject\.cache\Mac\SFX\TurnSignal\Car_TurnSignal_loop_1_FCEDDEE5.wem		\Actor-Mixer Hierarchy\Car\Indicator\Car_TurnSignal_loop_1		741648
+	854488364	Car_Gear_Shift-001	D:\Projects\Unity\CarController\My project\My project_WwiseProject\.cache\Mac\SFX\GearShift\Car_Gear_Shift-001_10C4C929.wem		\Actor-Mixer Hierarchy\Car\GearShift\Car_Gear_Shift-001		127028
+	862095396	NOS_Noise	D:\Projects\Unity\CarController\My project\My project_WwiseProject\.cache\Mac\SFX\Engine\NOS\NOS + Pipe_D79FB2B7.wem		\Actor-Mixer Hierarchy\Car\Engine\NOS\NOS_Noise		198512
+	881414870	car_crash_08	D:\Projects\Unity\CarController\My project\My project_WwiseProject\.cache\Mac\SFX\Crashes\car_crash_08_10C4C929.wem		\Actor-Mixer Hierarchy\Car\Crashes\CrashType\SmallCrash\car_crash_08		261136
+	891678877	Car_Tires_Asphalt	D:\Projects\Unity\CarController\My project\My project_WwiseProject\.cache\Mac\SFX\TiresSurface\Asphalt\Car_Tires_Asphalt_E75A7341.wem		\Actor-Mixer Hierarchy\Car\TiresSurface\Car_Tires_Asphalt		2225932
+	893900396	car_crash_06	D:\Projects\Unity\CarController\My project\My project_WwiseProject\.cache\Mac\SFX\Crashes\car_crash_06_10C4C929.wem		\Actor-Mixer Hierarchy\Car\Crashes\CrashType\BigCrash\car_crash_06		261664
+	895696907	car_crash_18	D:\Projects\Unity\CarController\My project\My project_WwiseProject\.cache\Mac\SFX\Crashes\car_crash_18_10C4C929.wem		\Actor-Mixer Hierarchy\Car\Crashes\CrashType\SmallCrash\car_crash_18		455352
+	915005411	Car_Engine_Engine_OffLoad_1000	D:\Projects\Unity\CarController\My project\My project_WwiseProject\.cache\Mac\SFX\Engine\OffLoad\Engine\Car_Engine_Engine_OffLoad_1000_D79FB2B7.wem		\Actor-Mixer Hierarchy\Car\Engine\EngineAngle\EngineSeq\Engine\Car_Engine_Engine_OffLoad_1000		3411108
+	915750086	road_bumps_4	D:\Projects\Unity\CarController\My project\My project_WwiseProject\.cache\Mac\SFX\Ambience\RoadBumps\road_bumps_4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Road_Bumps\road_bumps_4		70400
+	953996259	Car_Engine_Exhaust_OffLoad 3000	D:\Projects\Unity\CarController\My project\My project_WwiseProject\.cache\Mac\SFX\Engine\OffLoad\Exhaust\Car_Engine_Exhaust_OffLoad 3000_F21B48A0.wem		\Actor-Mixer Hierarchy\Car\Engine\EngineAngle\ExhaustSeq\Exhaust\Car_Engine_Exhaust_OffLoad 3000		769952
+	966276250	Car_Engine_Exhaust_Onload 6500	D:\Projects\Unity\CarController\My project\My project_WwiseProject\.cache\Mac\SFX\Engine\OnLoad\Exhaust\Car_Engine_Exhaust_Onload 6500_D79FB2B7.wem		\Actor-Mixer Hierarchy\Car\Engine\EngineAngle\ExhaustSeq\Exhaust\Car_Engine_Exhaust_Onload 6500		1189912
+	976882776	Car_Gear_Shift-003	D:\Projects\Unity\CarController\My project\My project_WwiseProject\.cache\Mac\SFX\GearShift\Car_Gear_Shift-003_10C4C929.wem		\Actor-Mixer Hierarchy\Car\GearShift\Car_Gear_Shift-003		105584
+	977543483	Car_Engine_Engine_Accel_6	D:\Projects\Unity\CarController\My project\My project_WwiseProject\.cache\Mac\SFX\Engine\Accel\Car_Engine_Engine_Accel_6_10C4C929.wem		\Actor-Mixer Hierarchy\Car\Engine\Acceleration\EngineAccel\VeryHi\Car_Engine_Engine_Accel_6		402720
+	979156606	road_bumps_1	D:\Projects\Unity\CarController\My project\My project_WwiseProject\.cache\Mac\SFX\Ambience\RoadBumps\road_bumps_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Road_Bumps\road_bumps_1		79028
+	987101438	car_crash_15	D:\Projects\Unity\CarController\My project\My project_WwiseProject\.cache\Mac\SFX\Crashes\car_crash_15_3FCE40C5.wem		\Actor-Mixer Hierarchy\Car\Crashes\CrashType\BigCrash\car_crash_15		427248
+	1001651583	Car_Engine_Engine_Accel_1	D:\Projects\Unity\CarController\My project\My project_WwiseProject\.cache\Mac\SFX\Engine\Accel\Car_Engine_Engine_Accel_1_1D141ECB.wem		\Actor-Mixer Hierarchy\Car\Engine\Acceleration\EngineAccel\Lo\Car_Engine_Engine_Accel_1		179208
+	1024323600	Destruction, Crash & Debris, Impact, Huge, Metal, Glass, Smash 02 SND42760	D:\Projects\Unity\CarController\My project\My project_WwiseProject\.cache\Mac\SFX\Crashes\Destruction, Crash & Debris, Impact, Huge, Metal, Glass, Smash 02 SND42760_10C4C929.wem		\Actor-Mixer Hierarchy\Car\Crashes\CrashType\BigCrash\Destruction, Crash & Debris, Impact, Huge, Metal, Glass, Smash 02 SND42760		462056
+	1038490921	Car_Tires_Gravel	D:\Projects\Unity\CarController\My project\My project_WwiseProject\.cache\Mac\SFX\TiresSurface\Gravel\Car_Tires_Gravel_L_D2BEA90D.wem		\Actor-Mixer Hierarchy\Car\TiresSurface\Car_Tires_Gravel		3503408
+	1043940708	Car_Engine_Engine_OnLoad_1000	D:\Projects\Unity\CarController\My project\My project_WwiseProject\.cache\Mac\SFX\Engine\OnLoad\Engine\Car_Engine_Engine_OnLoad_1000_D79FB2B7.wem		\Actor-Mixer Hierarchy\Car\Engine\EngineAngle\EngineSeq\Engine\Car_Engine_Engine_OnLoad_1000		2840628
+	1051488623	Car_Engine_Accel_4	D:\Projects\Unity\CarController\My project\My project_WwiseProject\.cache\Mac\SFX\Engine\Accel\Car_Engine_Accel_4_10C4C929.wem		\Actor-Mixer Hierarchy\Car\Engine\Acceleration\ExhaustAccel\Hi\Car_Engine_Accel_4		217952
+
